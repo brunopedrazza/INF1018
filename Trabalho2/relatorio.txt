@@ -1,0 +1,13 @@
+Bruno Pedrazza    1412933 3WB
+Guilherme Lacerda 1421134 3WB
+
+A função obteve sucesso em todos os teste feitos por nós.
+Primeiramente, foram feitos os 3 testes propostos no enunciado do trabalho.
+	
+A função mult testa a passagem de dois parâmetros, sendo eles {PARAM,INT_PAR} e {FIX,INT_PAR} obteve sucesso.
+	
+A outra versão da função mult testa a combinacão {IND,INT_PAR}, diferentemente da anterior.
+	
+A função memcmp testa {FIX,PTR_PAR}, {PARAM,PTR_PAR} e {PARAM,INT_PAR} também obtendo sucesso.
+	
+Após isso, implementamos outros testes com diferentes combinações, mas não com todas as possíveis. Em todas não ocorreram problemas.
