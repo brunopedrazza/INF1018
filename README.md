@@ -1,2 +1,4 @@
-# INF1018
-Laboratórios e trabalhos de Software Básico
+# INF1018 - Software Básico
+
+Laboratórios e trabalhos de Software Básico.
+PUC - Rio
