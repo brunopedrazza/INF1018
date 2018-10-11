@@ -1,0 +1,16 @@
+1. Programa executado com sucesso e contas feitas.
+
+2. Programa executado com sucesso.
+A variavel l foi atribuída a um (signed) short e k a um unsigned short. Fazendo as contas, vimos que na representacao complemento a 2 o l (signed) é representado igualmente ao k como unsigned na memória, por isso que em hexa eles são iguais.
+
+3. Programa executado e testado corretamente.
+
+4. Programa 1 executado com sucesso: x e y foram atribuidos a um (signed) int. Com isso, o resultado deu correto, (-1<2). Isso se dá pq os dois estao na mesma representacao de inteiro com sinal, por isso a comparacao é verdadeira. Dando o printf com %u, vemos que o x representado como um unsigned int é muito maior que 2, mas a comparacao como signed continua correta.
+
+Programa 2 executado com sucesso: x e y foram atribuidos a um unsigned int. A comparação deu incorreta pois a printf entá imprimindo com %d, se impresso com %u a comparação seria correta.
+
+Programa 3 executado com sucesso: x foi atribuido a um signed int e y a um unsigned int. Como o compilador interpreta os dois como unsigned e a printf está interpretando como %d, a comparação é falsa novamente. Se impresso como %u a comparação seria verdadeira.
+
+5. Fazendo as contas do complemento a dois, como ui é unsigned, vejo que o ui = 0xffffffff. O compilador faz a conversao do tamanho primeiro e depois de tipo.
+
+
